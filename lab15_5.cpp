@@ -18,5 +18,10 @@ int main(){
 	return 0;
 }
 
-//Do not modify the code above this line
-//Write definition of shuffle() using pointer after this line. 
+void shuffle(int *e, int *f, int *g, int *h){
+    int y = *e;
+    *e = *f;
+    *f = *g;
+    *g = *h;
+    *h = y;
+}
